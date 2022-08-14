@@ -20,6 +20,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    width: 100%;
+    position: fixed;
 }
 
 .nav_links {
@@ -50,4 +52,19 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+.content {
+    color: #edf0f1;
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin: 0 100px;
+    font-size: large;
 }
